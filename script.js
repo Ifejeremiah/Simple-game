@@ -21,7 +21,7 @@ const checkDead = setInterval(function () {
     if (blockLeft < 20 && characterTop >= 130) {
         block.style.animation = 'none';
         block.style.display = 'none';
-        alert('You lose!\nTry again.');
+        alert('Oh no. You lose! \nYou should have been faster.\nRefresh page to start again.');
     }
 }, 10);
 

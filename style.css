@@ -5,7 +5,7 @@
 }
 
 body{
-    background:linear-gradient(to right, #2edbe8, #5a80d1 );
+    background: linear-gradient(to right, #136a8a, #267871);
     color: #333;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -36,6 +36,12 @@ body{
     font-weight: 400;
     letter-spacing: 8px;
     text-transform: uppercase;
+}
+
+.content p {
+    padding: 10px 0;
+    font-weight: 650;
+    color: #555;
 }
 
 #character{
